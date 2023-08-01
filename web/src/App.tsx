@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import * as Dialog from '@radix-ui/react-dialog'
 import { CreateAdBanner } from './assets/components/CreateAdBanner';
+import { CreateAdPage } from './assets/components/CreateAdPage';
 import { GameBanner } from './assets/components/GameBanner';
 import './styles/main.css';
 import logoImg from './assets/logo1.svg';
@@ -47,6 +48,7 @@ function App() {
         </div>
           
         <Dialog.Root>
+          <CreateAdPage/>
           <CreateAdBanner/>
           <CreateAdModal/>
         </Dialog.Root>
