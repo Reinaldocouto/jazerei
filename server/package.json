@@ -1,11 +1,14 @@
 {
+  "homepage": "https://jazerei.com.br/",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsnd --exit-child src/server.ts"
+    "dev": "tsnd --exit-child src/server.ts",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
