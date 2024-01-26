@@ -38,6 +38,8 @@ Install it from VS Code extensions.
 - Twitter: [@reinaldocouto](https://twitter.com/reinaldocouto)
 - Github: [@reinaldocouto](https://github.com/reinaldocouto)
 - LinkedIn: [@reinaldocouto](https://linkedin.com/in/reinaldocouto)
+- Site: www.jazerei.com.br
+- Email: [reinaldo@jazerei.com.br]
 
 ## Show your support
 
